@@ -31,3 +31,10 @@ labs(title = "ilosć samochodów w poszczególnych klasach w zbiorze", x = "klas
 ggplot(data = mpg) +
 geom_histogram(mapping = aes(bins = 10, x = displ, fill = displ)) +
 labs(title = "rozkład pojemności silnika", x = "rodzaj", y = "pojemność silnika")
+
+#zad 4.5
+ggplot(data = mpg, aes(x = class, y = displ)) +
+geom_boxplot() +
+coord_flip() +
+labs( title = "auta", x = "klasa", y = "pojemność")
+
