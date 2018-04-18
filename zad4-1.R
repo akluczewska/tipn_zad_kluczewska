@@ -20,7 +20,7 @@ mpg
 
 #zad 4.2
 ggplot (data = mpg) +
-geom_point(mapping = aes(y = displ, x = cty)))
+geom_point(mapping = aes(y = displ, x = cty))
 
 #zad 4.3
 ggplot(data = mpg) +
