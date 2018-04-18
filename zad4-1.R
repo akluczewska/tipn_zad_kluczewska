@@ -38,3 +38,5 @@ geom_boxplot() +
 coord_flip() +
 labs( title = "auta", x = "klasa", y = "pojemność")
 
+Na zajęciach nie zdążyłam wkleić ostatniego wykresu (4.5)
+
