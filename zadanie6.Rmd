@@ -30,6 +30,8 @@ ale i tak nikt jej nie chce.
 ![paskuda](upload_temp_NNyGUD.jpg)
 
 ## tabelka niczego
+| rzecz 1 | rzecz 2 |
+| --- | :---: | --- |
 | wstęp | zatytułowanie wypowiedzi; zapowiedzenie planu wystąpienia |
 | rozwinięcie | odtwarzanie; argumentowanie; kontrargumentowanie |
 | zakończenie | podsumowanie | 
