@@ -27,7 +27,7 @@ output:
 ale i tak nikt jej nie chce.
 
 ## w sumie jest niespecjalnie ładna
-![oto i ona we własnej drukowanej osobie](yyynie.jpg)
+![oto i ona we własnej drukowanej osobie] (yyynie.jpg)
 
 ## tabelka niczego, (i trochę na temat planu wypowiedzi)
 | etap | co się w tym etapie zawiera |
