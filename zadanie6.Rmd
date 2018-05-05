@@ -41,13 +41,13 @@ ale i tak nikt jej nie chce.
 ## zacytujmy
 `(...)poziom uwagi słuchaczy zmienia się w czasie(...)`
 
-## nie wiem co
+### nie wiem co
 ```
 {r}
 mpg
 ```
 
-## takie śmieszne
+### takie śmieszne
 
 ```
 {r echo=FALSE, message=FALSE, warning=FALSE}
@@ -59,7 +59,7 @@ geom_boxplot()
 coord_flip() +
 labs(title = "auta", x = "klasa", y = "pojemność")
 ```
-## jeszcze coś
+### jeszcze coś
 ```
 {r echo=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
