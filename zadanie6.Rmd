@@ -31,7 +31,7 @@ ale i tak nikt jej nie chce.
 
 ## tabelka niczego
 | rzecz 1 | rzecz 2 |
-|------------|--------------|-----------------|
+|------------|:--------------:|-----------------|
 | wstęp | zatytułowanie wypowiedzi; zapowiedzenie planu wystąpienia |
 | rozwinięcie | odtwarzanie; argumentowanie; kontrargumentowanie |
 | zakończenie | podsumowanie | 
