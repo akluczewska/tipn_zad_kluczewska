@@ -10,6 +10,8 @@ output:
 ---
 # kawałek książki z wyprzedaży z empiku
 
+---
+
 ## etapy przygotowywania wypowiedzi:
 1. inwencja
 2. dyspozycja
