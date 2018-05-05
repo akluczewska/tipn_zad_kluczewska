@@ -30,8 +30,8 @@ ale i tak nikt jej nie chce.
 ![oto i ona we własnej drukowanej osobie](yyynie.jpg)
 
 ## tabelka niczego
-| rzecz 1 | rzecz 2 |
-|------------|:--------------:|-----------------|
+| etap | co się w tym etapie zawiera |
+|------------|--------------|
 | wstęp | zatytułowanie wypowiedzi; zapowiedzenie planu wystąpienia |
 | rozwinięcie | odtwarzanie; argumentowanie; kontrargumentowanie |
 | zakończenie | podsumowanie | 
