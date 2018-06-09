@@ -1,0 +1,72 @@
+---
+title: "zadanie szóste"
+author: "Aleksandra Kluczewska"
+date: "05.06.2018"
+output:
+  html_document:
+    theme: spacelab
+    highlight: textmate
+  df_print: paged
+---
+# kawałek książki z wyprzedaży z empiku
+
+---
+
+## etapy przygotowywania wypowiedzi:
+1. inwencja
+2. dyspozycja
+3. elokucja
+4. memoria
+5. pronuncjacja
+
+## wybór formy wypowiedzi
++ wybór tematu
++ zgromadzenie przykładów
++ opracowanie **kontrargumentów**
+
+## tu można  tę książkę kupić...
+[o tutaj](http://sklep.wsip.pl/produkty/matura-2018-repetytorium-jezyk-polski-zakres-podstawowy-zdaszto-26409/)
+ale i tak nikt jej nie chce.
+
+## w sumie jest niespecjalnie ładna
+![oto i ona we własnej drukowanej osobie](yyynie.jpg)
+
+## tabelka niczego (i trochę na temat planu wypowiedzi)
+| etap | co się w tym etapie zawiera |
+|------------|--------------|
+| wstęp | zatytułowanie wypowiedzi; zapowiedzenie planu wystąpienia |
+| rozwinięcie | odtwarzanie; argumentowanie; kontrargumentowanie |
+| zakończenie | podsumowanie | 
+
+## zacytujmy
+`(...)poziom uwagi słuchaczy zmienia się w czasie(...)`
+
+### nie wiem co
+```
+{r}
+mpg
+```
+
+### takie śmieszne
+
+```
+{r echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(ggplot2)
+mpg
+ggplot(data = mpg, aes(x = class, y = displ)) +
+geom_boxplot() 
+coord_flip() +
+labs(title = "auta", x = "klasa", y = "pojemność")
+```
+### jeszcze coś
+```
+{r echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+diamonds
+data(diamonds)
+select(diamonds, carat)
+```
+---
+
+Na pierwszych zajęciach zgłaszałam brak komputera, wobec tego ograniczenia nie jestem w stanie sprawdzić, czy wszystko śmiga jak powinno oraz niestety nie mogę zrobić knitu(jak mi się wydaje, nie mam na tablecie tak skomplikowanej rzeczy jak r studio, rzecz jasna na domowym kompie również). Wobec tego proszę Pana o wyrozumiałość wobec błędów i ewentualną informację co należy poprawić. 
