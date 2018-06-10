@@ -1,0 +1,63 @@
+---
+title: "zadanie szóste"
+author: "Aleksandra Kluczewska"
+date: "05.06.2018"
+output:
+  html_document:
+    theme: spacelab
+    highlight: textmate
+  df_print: paged
+---
+
+
+## etapy przygotowywania wypowiedzi:
+1. inwencja
+2. dyspozycja
+3. elokucja
+4. memoria
+5. pronuncjacja
+
+## wybór formy wypowiedzi
++ wybór tematu
++ zgromadzenie przyk³adów
++ opracowanie **kontrargumentów**
+
+## tu mo¿na kupiæ œwietne repetytorium...
+[o tutaj](http://sklep.wsip.pl/produkty/matura-2018-repetytorium-jezyk-polski-zakres-podstawowy-zdaszto-26409/)
+
+
+## tabelka niczego (i trochê na temat planu wypowiedzi)
+| etap | co siê w tym etapie zawiera |
+|------------|--------------|
+| wstêp | zatytu³owanie wypowiedzi; zapowiedzenie planu wyst¹pienia |
+| rozwiniêcie | odtwarzanie; argumentowanie; kontrargumentowanie |
+| zakoñczenie | podsumowanie | 
+
+## zacytujmy
+`(...)poziom uwagi s³uchaczy zmienia siê w czasie(...)`
+
+---
+
+```{r}
+library(tidyverse)
+library(ggplot2)
+mpg
+ggplot(data = mpg, aes(x = class, y = displ)) +
+geom_boxplot() +
+coord_flip() +
+labs(title = "auta", x = "klasa", y = "pojemnoœæ")
+```
+
+### jeszcze coœ
+
+```{r}
+library(tidyverse)
+library(ggplot2)
+
+diamonds %>% filter(cut == "Ideal")
+```
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
